@@ -1,0 +1,19 @@
+@font-face {
+  src: url(./Gilroy-Medium.woff2) format('woff2'),
+       url(./Gilroy-Medium.woff) format('woff');
+  font-family: Gilroy;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url(./Gilroy-Bold.woff2) format('woff2'),
+       url(./Gilroy-Bold.woff) format('woff');
+  font-family: Gilroy;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(./TERMINAT.TTF) format('ttf');
+  font-family: terminat;
+  font-weight: 400;
+}
