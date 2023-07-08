@@ -52,15 +52,70 @@
             class="skills__program-icon"
         />
         </li>
+        <li class="skills__program-item">
+            <img
+                src={threem}
+                alt="Логотип threem"
+                class="skills__program-icon"
+            />
+            </li>
+            <li class="skills__program-item">
+            <img
+                src={abb}
+                alt="Логотип abb"
+                class="skills__program-icon"
+            />
+            </li>
+            <li class="skills__program-item">
+            <img
+                src={ceresit}
+                alt="Логотип ceresit"
+                class="skills__program-icon"
+            />
+            </li>
+            <li class="skills__program-item">
+            <img
+                src={knauf}
+                alt="Логотип knauf"
+                class="skills__program-icon"
+            />
+            </li>
+            <li class="skills__program-item">
+            <img
+                src={tikkurila}
+                alt="Логотип tikkurila"
+                class="skills__program-icon"
+            />
+            </li>
+            <li class="skills__program-item">
+            <img
+                src={unis}
+                alt="Логотип unis"
+                class="skills__program-icon"
+            />
+            </li>
     </ul>
 </div>
 
 <style>
+    @font-face {
+    src: url(../fonts/Gilroy-Bold.woff2) format('woff2'),
+    url(../fonts/Gilroy-Bold.woff) format('woff');
+    font-family: Gilroy;
+    font-weight: 700;
+    }
+
+    @font-face {
+    src: url(../fonts/terminatorcyr.ttf) format('truetype');
+    font-family: term;
+    font-weight: 700;
+    }
 .skills__container{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 35px 20px 0 20px;
+    min-height: 240px;
 }
 
 @media screen and (max-width: 767px){
@@ -74,11 +129,13 @@
     position: relative;
     margin: 15px auto 40px;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 40px;
     line-height: 1.24;
     text-align: center;
     user-select: none;
     z-index: 0;
+    font-family: term;
+    color: var(--grayTextColor);
 }
 
 .skills__program-icon{
@@ -89,7 +146,7 @@
 
 .skills__program-item{
     list-style-type: none;
-    margin: 0 30px 30px 30px;
+    margin: 0 50px 50px 30px;
     transition: .3s linear .1s;
     filter: grayscale(80%);
     border-radius: 30%;
@@ -108,6 +165,7 @@
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
+    max-width: 1100px;
 }
 
 @media screen and (max-width: 767px){
@@ -119,7 +177,8 @@
     filter: none
     }
     .section-heading {
-        font-size: 34px;
+        font-size: 22px;
+        margin-top: 35px;
     }
 }
 

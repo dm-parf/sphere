@@ -44,12 +44,19 @@
 </div>
 
 <style>
+    @font-face {
+    src: url(../fonts/terminatorcyr.ttf) format('truetype');
+    font-family: term;
+    font-weight: 700;
+    }
+
 .skills__container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 20px 0 20px;
+    margin: 50px 0 ;
     background: url("../images/back.jpg");
+    min-height: 587px;
 }
 
 @media screen and (max-width: 767px){
@@ -68,6 +75,9 @@
     text-align: center;
     user-select: none;
     z-index: 0;
+    font-family: term;
+    color: var(--grayTextColor);
+    max-width: 750px;
 }
 
 .skills__program-icon{
@@ -167,10 +177,10 @@
     }
 
     .skills__program-icon {
-        width: 270px;
+        width: 180px;
     }
     .section-heading {
-        font-size: 34px;
+        font-size: 22px;
     }
 }
 </style>
