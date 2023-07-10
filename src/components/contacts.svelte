@@ -25,19 +25,20 @@
             </div>
         </div>
         <div class="contacts__persons">
+            <h2 class="company_header">Реквизиты компании</h2>
             <p class="requisites">Полное наименование:<br>Общество с ограниченной ответственностью «ТД Сфера»</p>
             <p class="requisites">Сокращенное наименование:<br>ООО «ТД СФЕРА»</p>
             <p class="requisites">Юр.адрес:<br>127410 , г.Москва вн.тер.г.Муниципальный округ Алтуфьевский .ш.Алтуфьевское . д79А стр.25, пом.4/1</p>
-            <p class="requisites">ИНН/КПП 9715448206/771501001</p>
-            <p class="requisites">ОГРН 1237700292785</p>
-            <p class="requisites">ОКПО 98246052</p>
-            <p class="requisites">Расчетный счет 40702810320000007342</p>
+            <p class="requisites">ИНН/КПП: 9715448206/771501001</p>
+            <p class="requisites">ОГРН: 1237700292785</p>
+            <p class="requisites">ОКПО: 98246052</p>
+            <p class="requisites">Расчетный счет: 40702810320000007342</p>
             <p class="requisites">Корреспондентский счет: 30101810745374525104</p>
-            <p class="requisites">БИК 044525104</p>
-            <p class="requisites">Банк ООО "Банк Точка"</p>
+            <p class="requisites">БИК: 044525104</p>
+            <p class="requisites">Банк: ООО "Банк Точка"</p>
             <p class="requisites">Генеральный директор:<br>Ягодкина Виктория Андреевна</p>
             <p class="requisites">Тел. 8-495-778-53-10</p>
-            <p class="requisites">E-MAIL: sales@tdsphere.ru</p>
+            <p class="requisites">Email: sales@tdsphere.ru</p>
         </div>
     </div>
 </div>
@@ -61,8 +62,9 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         margin-top: 30px;
+        position: relative; 
     }
 
     .contacts__header {
@@ -79,6 +81,7 @@
     .requisites{
         font-weight: 500;
         font-size: 18px;
+        margin: 8px auto;
     }
 
     .aphone,
@@ -112,6 +115,11 @@
     .contacts__persons{
         margin-left: 150px;
         max-width: 30%;
+    }
+
+    .company_header{
+        margin: 0 auto;
+        font-size: 22px;
     }
 
     @media screen and (max-width: 1024px){
@@ -150,5 +158,8 @@
         .contacts__box{
             margin-top: 30px;
         }
+        .company_header{
+        text-align: center;
+    }
     }
 </style>

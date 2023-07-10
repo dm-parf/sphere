@@ -134,6 +134,9 @@
     .card__name{
         font-size: 14px;
     }
+    .middle-paragraph{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 320px) {
